@@ -32,9 +32,9 @@
 }
 
 main {
-    margin-top: 4em;
     position: relative;
     height: 100%;
+    margin-top: 4em;
     margin-bottom: 4em;
 }
 
@@ -188,6 +188,10 @@ p {
     background-color: #0e0e46;
 }
 
+.contact-links {
+    margin-top: 20px;
+}
+
 .contact-icons a {
     opacity: 1;
     transition-property: opacity;
@@ -217,7 +221,7 @@ p {
 }
 
 .attribution-container {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .footer-small {
