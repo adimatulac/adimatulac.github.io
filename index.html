@@ -23,32 +23,35 @@
   
   <body class="animated fadeIn">
     <header class="navigation" role="banner">
-      <nav class="navbar navbar-fixed-top navbar-expand-sm px-md-6 pt-md-5 pb-md-4" role="navigation">
-        <div class="d-flex flex-grow-1">
-          <a class="navbar-brand text-uppercase" href="index.html">
-            Angelli Dimatulac
-          </a>
-          <div class="w-100 text-right">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-              <i class="material-icons">menu</i>
-            </button>
+      <nav class="navbar navbar-default navbar-expand-md fixed-top custom-nav pt-md-5">
+        <div class="container">
+          <div class="navbar-header d-flex flex-grow-1">
+            <a class="navbar-brand text-uppercase" href="index.html">
+              Angelli Dimatulac
+            </a>
+            <div class="w-100 text-right">
+                <button type="button" class="navbar-toggler navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">toggle navigation</span>
+                    <i class="material-icons">menu</i>
+                  </button>
+            </div>
           </div>
-        </div>
-        <div class="collapse navbar-collapse flex-grow-1 text-right">
-          <ul class="navbar-nav ml-auto flex-nowrap">
-            <li class="nav-item">
-              <a href="about.html" class="nav-link">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a href="work.html" class="nav-link">WORK</a>
-            </li>
-            <li class="nav-item">
-              <a href="photography.html" class="nav-link">PHOTOGRAPHY</a>
-            </li>
-            <li class="nav-item">
-              <a href="journal.html" class="nav-link">JOURNAL</a>
-            </li>
-          </ul>
+          <div id="navbar" class="navbar-collapse collapse flex-grow-1 text-right">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+              <li class="nav-item">
+                  <a href="about.html" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a href="work.html" class="nav-link">WORK</a>
+                </li>
+                <li class="nav-item">
+                  <a href="photography.html" class="nav-link">PHOTOGRAPHY</a>
+                </li>
+                <li class="nav-item">
+                  <a href="journal.html" class="nav-link">JOURNAL</a>
+                </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
@@ -62,7 +65,8 @@
       </div>
       </main>
       <footer class="footer-main">
-          <div class="container-fluid px-md-6 py-md-4 border-top">
+        <div class="container">
+          <div class="container-fluid py-md-4">
             <div class="contact-links">
               <span class="contact-icons">
                   <a href="mailto:angellidimatulac@gmail.com"><img src="assets/images/email.svg" class="footer-icons"></a>
@@ -74,6 +78,7 @@
                 <p class="footer-small">&copy; Coded with <span class="fas fa-heart"></span> by Angelli Dimatulac 2019.</p>
             </div>
           </div>
+        </div>
         </footer>
 
     <script type="text/javascript" src="assets/scripts/scripts.js"></script>
