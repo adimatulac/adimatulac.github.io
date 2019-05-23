@@ -3,6 +3,6 @@
 //  - navbar hide on scroll
 
 // to load navbar for every page
-$(function() {
-    $("#nav-placeholder").load("navigation.html");
+$(function(){
+    $('#nav-placeholder').load('navigation.html');
 });
