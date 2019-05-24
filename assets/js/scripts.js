@@ -2,20 +2,9 @@
 //  - dynamic content addition (into cards/tiles?)
 //  - navbar hide on scroll
 
-// to load navbar for every page
+// to load navbar for every page - (jk too many problems)
+// $(document).ready(function(){
+//     $("#nav-placeholder").load("navigation.html");
 
-// document.addEventListener("DOMContentLoaded", function() {
-//     let 
+//     $("#footer-placeholder").load("footer.html");
 // });
-
-// jQuery.noConflict();
-//      // Use jQuery via jQuery() instead of via $()
-//      jQuery(document).ready(function(){
-//        jQuery("attribution-container").hide();
-//      });  
-
-$(document).ready(function(){
-    $("#nav-placeholder").load("navigation.html");
-
-    $("#footer-placeholder").load("footer.html");
-});
