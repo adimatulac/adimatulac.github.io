@@ -15,7 +15,7 @@
 //      });  
 
 $(document).ready(function(){
-    $("#nav-placeholder").load("navigation.html", function() {
-        alert("this was load was performed");
-    });
+    $("#nav-placeholder").load("navigation.html");
+
+    $("#footer-placeholder").load("footer.html");
 });
