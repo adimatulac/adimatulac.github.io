@@ -31,6 +31,15 @@
     animation-name: fadeIn;
 }
 
+/* html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    min-height: 100%;
+} */
+
 main {
     position: relative;
     height: 100%;
@@ -182,6 +191,13 @@ p {
 .container-fluid {
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    /* height: 40px; */
+    margin-top: -40px;
 }
 
 .footer-main {
