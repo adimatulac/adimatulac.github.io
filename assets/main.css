@@ -57,6 +57,14 @@ button:focus {
     outline: transparent;
 }
 
+.navbar {
+    transition: top 0.5s ease-in-out;
+}
+
+.navbar-hide {
+    top: -120px;
+}
+
 .custom-nav {
     background-color: aliceblue;
 }
@@ -87,17 +95,6 @@ button:focus {
     height: 100%;
     margin-bottom: 50px
 } */
-
-.nav-down {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    transition: top 0.2s ease-in-out;
-}
-
-.nav-up {
-    top: -40px;
-}
 
 .navbar-toggler {
     border-color: transparent;
