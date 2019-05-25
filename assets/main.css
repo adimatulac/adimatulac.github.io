@@ -58,7 +58,7 @@ button:focus {
 }
 
 .navbar {
-    transition: top 0.5s ease-in-out;
+    transition: top 0.4s ease-in-out;
 }
 
 .navbar-hide {
