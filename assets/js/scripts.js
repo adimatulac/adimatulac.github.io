@@ -50,3 +50,38 @@ $('a[href^=\\#]').click(function() {
 
     event.preventDefault();
 });
+
+$(document).ready(function(){
+	$('#nav-icon').click(function(){
+		$(this).toggleClass('open');
+	});
+});
+
+$('.projectModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget);
+  var projectName = button.data('id');
+
+  var project = search(projectName, projects);
+
+  var modal = $(this)
+  modal.find('.modal-title').text(projectName);
+  modal.find('.project-description').text(project.description);
+  modal.find('.project-tech').text(project.techStack);
+});
+
+function search(name, projects) {
+  for (let i=0; i < projects.length; i++) {
+    if (projects[i].title === name) {
+      return projects[i];
+    }
+  }
+}
+
+// $('#projectModal').modal();
+
+// function afterModalTransition(e) {
+//   e.setAttribute('style', 'display: none !important;');
+// }
+// $('#projectModal').on('hide.bs.modal', function (e) {
+// 	setTimeout( () => afterModalTransition(this), 200);
+// })

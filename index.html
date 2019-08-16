@@ -32,7 +32,13 @@
             <div class="w-100 text-right">
                 <button type="button" class="navbar-toggler navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                   <span class="sr-only">toggle navigation</span>
-                  <img src="assets/images/baseline-menu.svg" class="menu-icons">
+                  <div id="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <!-- <img src="assets/images/baseline-menu.svg" class="menu-icons"> -->
                 </button>
             </div>
           </div>
@@ -48,7 +54,7 @@
                   <a href="#work" class="nav-link">work</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#journal" class="nav-link">experience</a>
+                  <a href="#play" class="nav-link">play</a>
                 </li>
             </ul>
           </div>
@@ -61,8 +67,8 @@
           <div class='col-md-6 inner-section'>
             <h1>Hi! I'm Angelli. &#x1F44B</h1>
             <p class='section-sub-text'>
-              I'm a software engineer and computer science student at the University of British Columbia.
-              Incoming full-stack developer intern at TTT Studios. Big fan of new tech, long car rides, and sweeping ocean views.
+              I'm a software developer and computer science student at the University of British Columbia.
+              Incoming full-stack development intern at TTT Studios. Big fan of cool new tech, long car rides, and sweeping ocean views.
             </p>
             <a href="mailto:angellidimatulac@gmail.com">
               <button type='button' class='btn btn-primary theme-btn' style='font-family: "AvenirNext-Regular", sans-serif'>Say hello!</button>
@@ -89,8 +95,8 @@
               <div class='row mx-auto section-sub'>
                 <div class='col'>
                   <p class='section-sub-text'>
-                    I admit I spend a lot of time in school and in front of a computer, but I'm just as excited by so many other things. 
-                    Bonus points because they ultimately help me be the best developer I can be.
+                    I admit I spend a lot of time in front of a computer coding the day away, but I'm just as excited by so many other things. 
+                    Bonus points because they ultimately help me be a better developer and human being.
                   </p>
                 </div>
               </div>
@@ -99,10 +105,10 @@
                   <!-- <object data='assets/images/programming.svg' type='image/svg+xml' class='about-item-icon'>
                     <img src='assets/images/programming.svg'>
                   </object> -->
-                  <img src='assets/images/programming-colour.svg' class='about-item-icon'></img>
+                  <img src='assets/images/gears-colour.svg' class='about-item-icon'></img>
                   <div class='about-item'>
                     <h6>Problem-solver</h6>
-                    <p>
+                    <p class='about-item-caption'>
                       I enjoy problem-solving and building things, from jigsaw puzzles to rabbit hutches.
                       Code just happens to be one of my favourite mediums.
                     </p>
@@ -112,9 +118,9 @@
                   <img src='assets/images/art-colour.svg' class='about-item-icon'></img>
                   <div class='about-item'>
                     <h6>Designer</h6>
-                    <p>
+                    <p class='about-item-caption'>
                       I geek out over how things are made and why they're made that way, by good and bad design, and by amazing user experiences.
-                      Shoutout to 99pi!
+                      Shoutout to <a href='https://podcasts.apple.com/us/podcast/99-invisible/id394775318'>99pi</a>!
                     </p>
                   </div>
                 </div>
@@ -122,7 +128,7 @@
                   <img src='assets/images/data-colour.svg' class='about-item-icon'></img>
                   <div class='about-item'>
                     <h6>Data Analyst</h6>
-                    <p>
+                    <p class='about-item-caption'>
                       I can spend hours poring over data, connecting dots, and piecing things together.
                     </p>
                   </div>
@@ -131,8 +137,10 @@
                   <img src='assets/images/rocket-colour.svg' class='about-item-icon'></img>
                   <div class='about-item'>
                     <h6>Adventurer</h6>
-                    <p>
-                      Travelling and being outdoors gives me life like no other. I'm 34 countries in and always ready for a new adventure.
+                    <p class='about-item-caption'>
+                      Travelling and being outdoors gives me life like no other. 
+                      From hiking in the PNW mountains to diving with dolphins off the coast of NZ,
+                      I'm always ready for a new adventure!
                     </p>
                   </div>
                 </div>
@@ -148,14 +156,13 @@
             <div class='col text-center'>
               <h3>Stuff I've worked on</h3>
               <p class='section-sub-text'>
-                A portfolio of things I'm kinda sorta proud of.
+                These are just some of the projects I'm kinda proud of.
               </p>
             </div>
           </div>
           <div class='row mx-auto'>
               <div class='col-sm-3 text-center'>
-                <div class='card portfolio-item'>
-                  <a href='#' class='stretched-link'></a>
+                <div class='card portfolio-item' data-toggle='modal' data-target='#projectModal' data-id='CoHabs'>
                   <img class='card-img-top'>
                   <div class='card-body'>
                     <h6 class='card-title'>CoHabs</h6>
@@ -165,7 +172,6 @@
               </div>
               <div class='col-sm-3 text-center'>
                 <div class='card portfolio-item'>
-                  <a href='#' class='stretched-link'></a>
                   <img class='card-img-top'>
                   <div class='card-body'>
                     <h6 class='card-title'>CoHabs</h6>
@@ -175,7 +181,6 @@
               </div>
               <div class='col-sm-3 text-center'>
                 <div class='card portfolio-item'>
-                  <a href='#' class='stretched-link'></a>
                   <img class='card-img-top'>
                   <div class='card-body'>
                     <h6 class='card-title'>CoHabs</h6>
@@ -185,7 +190,6 @@
               </div>
               <div class='col-sm-3 text-center'>
                 <div class='card portfolio-item'>
-                  <a href='#' class='stretched-link'></a>
                   <img class='card-img-top'>
                   <div class='card-body'>
                     <h6 class='card-title'>CoHabs</h6>
@@ -196,9 +200,41 @@
           </div>
         </div>
       </div>
-      <div class='chunk' id='journal' name='journal'>
+      <div class='chunk' id='play' name='play'>
         <div class='container'>
           <div class='row mx-auto'>
+            <div class='col text-center'>
+              <h3>Extra fun</h3>
+              <p class='section-sub-text'>
+                Check out my big and little adventures, and everything in between!
+              </p>
+            </div>
+          </div>
+          
+          <!-- modal -->
+          <div class='modal fade projectModal' id='projectModal' tabindex='-1' role='dialog' aria-labelledby='projectModalLabel' aria-hidden='true'>
+            <div class='modal-dialog modal-dialog-centered' role='document'>
+              <div class='modal-content'>
+                <div class='modal-header'>
+                  <h5 class='modal-title' id='projectModalLabel'>project title</h5>
+                  <button type='button' class='close' data-dismiss='modal' aria-label='close'>
+                    <span aria-hidden='true'>&times;</span>
+                  </button>
+                </div>
+                <div class='modal-body'>
+                  <p class='project-description modal-main-text'>
+                    ...
+                  </p>
+                  <h6>Languages and Frameworks:</h6>
+                  <p class='project-tech modal-sub-text'>
+                    ...
+                  </p>
+                </div>
+                <div class='modal-footer'>
+                  <!-- <button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button> -->
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -224,5 +260,6 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/scripts.js"></script>
+    <script type="text/javascript" src="assets/js/work.js"></script>
   </body>
 </html>
