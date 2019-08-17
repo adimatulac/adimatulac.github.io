@@ -37,11 +37,6 @@ h6 {
     animation-fill-mode: both;
 }
 
-html {
-    /* scroll-behavior: smooth; */
-    /* height: 100vh; */
-}
-
 body {
     width: 100%;
     /* background-color: #FEFEFE; */
@@ -177,7 +172,7 @@ a.anchor {
 
 .intro {
     /* height: 100vh; */
-    padding: 6rem 0 2rem 0;
+    padding: 6rem 0 4rem 0;
 }
 
 .intro-img {
@@ -200,7 +195,7 @@ a.anchor {
 }
 
 .chunk {
-    padding: 0 0 2rem 0;
+    padding: 0 0 4rem 0;
     /* background-color: #048DF6; */
 }
 
@@ -246,7 +241,7 @@ p {
 }
 
 .about-item-caption {
-    color: #858B92;
+    color: #7C8188;
 }
 
 .portfolio-item {
@@ -254,6 +249,7 @@ p {
     transition: .2s box-shadow, .15s transform;
     border-radius: .5rem;
     overflow: hidden;
+    min-height: 8rem;
 }
 
 .portfolio-item:hover {
@@ -437,4 +433,55 @@ footer {
 .fade-mid.show {
     opacity: 1;
     transform: scale(1);
+}
+
+.modal-icon {
+    width: 1.6rem;
+    height: 1.6rem;
+    opacity: 0.6;
+    transition-property: opacity;
+    transition-timing-function: linear;
+    transition-duration: 0.18s;
+}
+
+.modal-icon:hover {
+    opacity: 1;
+}
+
+.masonry-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+
+.masonry-col {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 0.5rem;
+}
+
+.masonry-col img {
+    margin-top: 1rem;
+    vertical-align: middle;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 0.4s
+}
+
+.masonry-col img[data-src] {
+    opacity: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .masonry-col {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .masonry-col {
+      flex: 100%;
+      max-width: 100%;
+    }
 }

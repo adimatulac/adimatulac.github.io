@@ -59,14 +59,16 @@ $(document).ready(function(){
 
 $('.projectModal').on('show.bs.modal', function (event) {
   var button = $(event.relatedTarget);
-  var projectName = button.data('id');
+  var projectName = button.data('name');
 
   var project = search(projectName, projects);
 
   var modal = $(this)
-  modal.find('.modal-title').text(projectName);
+  modal.find('.project-title').text(projectName);
+  modal.find('.project-date').text(project.date);
   modal.find('.project-description').text(project.description);
-  modal.find('.project-tech').text(project.techStack);
+  modal.find('.project-tech').text(project.stack);
+  modal.find('.modal-footer').html('<a href="https://github.com/' + project.url + '"><img src="assets/images/github-logo.svg" class="modal-icon"></a>');
 });
 
 function search(name, projects) {
@@ -76,6 +78,13 @@ function search(name, projects) {
     }
   }
 }
+
+[].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+	img.setAttribute('src', img.getAttribute('data-src'));
+	img.onload = function() {
+		img.removeAttribute('data-src');
+	};
+});
 
 // $('#projectModal').modal();
 
