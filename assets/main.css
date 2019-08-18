@@ -221,6 +221,7 @@ p {
 .about-section-img {
     width: 18rem;
     height: 18rem;
+    margin-top: 2rem;
 }
 
 .about-item-container {
