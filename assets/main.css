@@ -176,8 +176,8 @@ a.anchor {
 }
 
 .intro-img {
-    width: 18rem;
-    height: 18rem;
+    width: 19rem;
+    height: 19rem;
     object-fit: cover;
     object-position: 0 80%;
     border-radius: 50%;
@@ -466,7 +466,7 @@ footer {
     vertical-align: middle;
     width: 100%;
     opacity: 1;
-    transition: opacity 0.4s
+    transition: opacity 0.5s
 }
 
 .masonry-col img[data-src] {
