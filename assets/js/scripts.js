@@ -68,7 +68,7 @@ $('.projectModal').on('show.bs.modal', function (event) {
   modal.find('.project-date').text(project.date);
   modal.find('.project-description').text(project.description);
   modal.find('.project-tech').text(project.stack);
-  modal.find('.modal-footer').html('<a href="https://github.com/' + project.url + '"><img src="assets/images/github-logo.svg" class="modal-icon"></a>');
+  modal.find('.modal-footer').html('<a href="https://github.com/' + project.url + '"><img src="assets/images/svg/github-logo.svg" class="modal-icon"></a>');
 });
 
 function search(name, projects) {
