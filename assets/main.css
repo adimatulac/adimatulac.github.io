@@ -355,12 +355,14 @@ footer {
 .theme-btn-sec {
     color: #37A2FF;
     border-color: #37A2FF;
+    transition-duration: 0.2s;
+    font-family: 'AvenirNext-Regular', sans-serif;
 }
 
 .theme-btn-sec:hover {
     color: #FFFFFF;
-    background-color: #1186ED;
-    border-color: #1186ED;
+    border-color: #37A2FF;
+    background-color: #37A2FF;
 }
   
 #nav-icon {
