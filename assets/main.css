@@ -191,12 +191,10 @@ a.anchor {
 
 .item {
     padding: 4rem 0 2rem 0;
-    /* background-color: #0e0e46; */
 }
 
 .chunk {
     padding: 0 0 4rem 0;
-    /* background-color: #048DF6; */
 }
 
 p {
@@ -332,8 +330,8 @@ footer {
 }
 
 .theme-btn:hover {
-    background-color: #1E85DF;
-    border-color: #1E85DF;
+    background-color: #1186ED;
+    border-color: #1186ED;
 }
   
 #nav-icon {
