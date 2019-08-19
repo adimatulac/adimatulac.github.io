@@ -351,6 +351,17 @@ footer {
     background-color: #1186ED;
     border-color: #1186ED;
 }
+
+.theme-btn-sec {
+    color: #37A2FF;
+    border-color: #37A2FF;
+}
+
+.theme-btn-sec:hover {
+    color: #FFFFFF;
+    background-color: #1186ED;
+    border-color: #1186ED;
+}
   
 #nav-icon {
     width: 20px;
@@ -483,7 +494,6 @@ footer {
 }
 
 .masonry-col img {
-    margin-top: 1rem;
     vertical-align: middle;
     width: 100%;
     opacity: 1;
@@ -506,4 +516,45 @@ footer {
       flex: 100%;
       max-width: 100%;
     }
+}
+
+.img-overlay-container {
+    margin-top: 1rem;
+    position: relative;
+}
+
+.img-overlay-container:hover .img-overlay {
+    opacity: 0.5;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+}
+
+.img-overlay-text {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 1rem;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.img-overlay-container:hover .img-overlay-text {
+    opacity: 1;
 }
