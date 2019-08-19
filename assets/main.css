@@ -327,8 +327,13 @@ footer {
 }
 
 .theme-btn {
-    background-color: #048DF6;
-    border-color: #048DF6;
+    background-color: #37A2FF;
+    border-color: #37A2FF;
+}
+
+.theme-btn:hover {
+    background-color: #1E85DF;
+    border-color: #1E85DF;
 }
   
 #nav-icon {
