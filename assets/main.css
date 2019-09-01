@@ -34,10 +34,6 @@ body {
     width: 100%;
 }
 
-html {
-    /* scroll-behavior: smooth; */
-}
-
 main {
     position: relative;
     margin-bottom: 4em;
