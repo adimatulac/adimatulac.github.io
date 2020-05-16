@@ -32,13 +32,13 @@ h6 {
 
 body {
     width: 100%;
+    min-height: 100vh;
+    position: relative;
 }
 
 main {
     position: relative;
-    margin-bottom: 4em;
-    /* height: 100%; */
-    /* margin-top: 4em; */
+    padding-bottom: 6rem;
 }
 
 button {
@@ -143,10 +143,24 @@ a.anchor {
     }
 }
 
+@media (max-width: 768px) {
+    .intro {
+        padding: 2rem 0 6rem 0 !important;
+    }
+
+    .intro-inner {
+        padding-top: 2rem !important;
+    }
+
+    .card-img-top {
+        height: 60vw !important;
+    }
+}
+
 .navbar-brand {
-    font-family: 'Miriam Libre', sans-serif;
-    /* font-weight: bold; */
-    font-size: 1.8rem;
+    font-family: 'AvenirNext-DemiBold', sans-serif;
+    /* font-family: 'Miriam Libre', sans-serif; */
+    font-size: 1.6rem;
     color: #1a237e;
 }
 
@@ -161,12 +175,11 @@ a.anchor {
 }
 
 .intro {
-    min-height: 100vh;
-    padding: 10rem 0 8rem 0;
+    padding: 4rem 0 10rem 0;
 }
 
 .intro-img-container {
-    padding-top: 2.5rem;
+    padding-top: 2rem;
 }
 
 .intro-img-pos {
@@ -191,6 +204,10 @@ a.anchor {
     font-size: 1.4rem;
 }
 
+.intro-sub-sub-text {
+    font-size: 1rem;
+}
+
 .item {
     padding: 4rem 0 2rem 0;
 }
@@ -208,6 +225,10 @@ p {
 
 .inner-section {
     padding-top: 1rem;
+}
+
+.intro-inner {
+    padding-top: 4rem;
 }
 
 .section-sub {
@@ -282,13 +303,16 @@ p {
 
 footer {
     /* clear: both; */
-    position: relative;
-    /* height: 40px; */
-    margin-top: -40px;
+    /* position: absolute; */
+    bottom: 0;
+    /* margin-top: -40px; */
 }
 
 .footer-main {
+    width: 100%;
     background-color: #0e0e46;
+    bottom: 0;
+    position: absolute;
 }
 
 .contact-links {
@@ -443,6 +467,12 @@ footer {
 
 .close:hover {
     opacity: 1;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
 }
 
 .modal-main-text {

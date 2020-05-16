@@ -64,26 +64,60 @@
       </nav>
     </header>
     <main role="main">
-      <div class='container intro' id='home' name='home'>
-        <div class='row mx-auto'>
-          <div class='col-md-7 intro-inner'>
-            <h1>Hi! I'm Angelli. &#x1F44B</h1>
-            <p class='intro-sub-text'>
-              Computer science student and aspiring software engineer from Vancouver, Canada.
-              Big fan of cool new tech, circular economy, long car rides, and sweeping ocean views.
-            </p>
-            <p class="intro-sub-sub-text">
-              Previously building <a href="https://ttt.studio/">@TTT Studios</a>.
-            </p>
-            <div class='inner-section'>
-              <a href='mailto:angellidimatulac@gmail.com' target='_blank'>
-                <button type='button' class='btn btn-primary theme-btn' style='font-family: "AvenirNext-Regular", sans-serif'>Say hello!</button>
-              </a>
+      <div class='container intro' id='projects' name='projects'>
+        <div class='container inner-section'>
+          <div class='row mx-auto pb-4'>
+            <div class='col text-center'>
+              <h3>&#x2728 Cool stuff I've worked on &#x1F4BB</h3>
+              <p class='section-sub-text'>
+                Nothing gets me quite as excited as solving problems and building things!
+              </p>
             </div>
           </div>
-          <div class='col-md-5 text-center inner-section'>
-            <div class='intro-img-container'>
-              <img src='assets/images/photos/myface.jpg' class='intro-img'>
+          <div class='row mx-auto'>
+            <div class='col-md-3 text-center'>
+              <div class='card portfolio-item' data-toggle='modal' data-target='#projectModal' data-name='CoHabs'>
+                <img class='card-img-top' src="assets/images/photos/projects/cohabs.png" alt="Screenshot of household management application">
+                <div class='card-body'>
+                  <h6 class='card-title'>CoHabs</h6>
+                  <p class='card-text'>Responsive web application for roomie management</p>
+                </div>
+              </div>
+            </div>
+            <div class='col-md-3 text-center'>
+              <div class='card portfolio-item' data-toggle='modal' data-target='#projectModal' data-name='FreeSpot'>
+                <img class='card-img-top' src="assets/images/photos/projects/freespot.png" alt="Sample schematic for sensor prototype">
+                <div class='card-body'>
+                  <h6 class='card-title'>FreeSpot</h6>
+                  <p class='card-text'>IoT solution for locating nearby unoccupied bike racks</p>
+                </div>
+              </div>
+            </div>
+            <div class='col text-center' style="padding-top: 2rem; opacity: 0.75;">
+              <p class='section-sub-text'>Under construction – more coming soon.</p>
+            </div>
+          </div>
+        </div>
+        <div class='modal fade projectModal' id='projectModal' tabindex='-1' role='dialog' aria-labelledby='projectModalLabel' aria-hidden='true'>
+          <div class='modal-dialog modal-dialog-centered' role='document'>
+            <div class='modal-content'>
+              <div class='modal-header'>
+                <h5 class='project-title' id='projectModalLabel'>project title</h5>
+                <button type='button' class='close' data-dismiss='modal' aria-label='close'>
+                  <span aria-hidden='true'>&times;</span>
+                </button>
+              </div>
+              <div class='modal-body'>
+                <p class='project-description modal-main-text'>
+                  ...
+                </p>
+                <h6>Languages and Technologies:</h6>
+                <p class='project-stack modal-sub-text'>
+                  ...
+                </p>
+              </div>
+              <div class='modal-footer'>
+              </div>
             </div>
           </div>
         </div>
