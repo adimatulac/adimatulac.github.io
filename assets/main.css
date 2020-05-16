@@ -159,7 +159,6 @@ a.anchor {
 
 .navbar-brand {
     font-family: 'AvenirNext-DemiBold', sans-serif;
-    /* font-family: 'Miriam Libre', sans-serif; */
     font-size: 1.6rem;
     color: #1a237e;
 }
@@ -175,7 +174,7 @@ a.anchor {
 }
 
 .intro {
-    padding: 4rem 0 10rem 0;
+    padding: 4rem 0 8rem 0;
 }
 
 .intro-img-container {
