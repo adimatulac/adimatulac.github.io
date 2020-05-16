@@ -20,6 +20,11 @@
          url('./fonts/AvenirNext-UltraLight.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'AvenirNext-Bold';
+    src: url('./fonts/AvenirNext-Bold.ttf') format('truetype');
+}
+
 h1,
 h2,
 h3,
@@ -144,6 +149,10 @@ a.anchor {
 }
 
 @media (max-width: 768px) {
+    .navbar-brand {
+        padding-top: 0.75rem;
+    }
+
     .intro {
         padding: 2rem 0 6rem 0 !important;
     }
@@ -158,13 +167,13 @@ a.anchor {
 }
 
 .navbar-brand {
-    font-family: 'AvenirNext-DemiBold', sans-serif;
-    font-size: 1.6rem;
-    color: #1a237e;
+    font-family: 'AvenirNext-Bold', sans-serif;
+    font-size: 1.2rem;
+    color: #0E0E52;
 }
 
 .navbar-brand:hover {
-    color: #1a237e;
+    color: #0E0E52;
 }
 
 .bio-wrapper {
@@ -200,7 +209,7 @@ a.anchor {
 }
 
 .intro-sub-text {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .intro-sub-sub-text {
@@ -235,7 +244,17 @@ p {
 }
 
 .section-sub-text {
-    font-size: 1.05rem;
+    font-size: 1rem;
+}
+
+.p-link {
+    color: #37A2FF;
+    transition-duration: 0.2s;
+}
+
+.p-link:hover {
+    text-decoration: none;
+    color: #1186ED;
 }
 
 .blurb-title {
@@ -309,7 +328,7 @@ footer {
 
 .footer-main {
     width: 100%;
-    background-color: #0e0e46;
+    background-color: #0E0E52;
     bottom: 0;
     position: absolute;
 }
@@ -327,9 +346,8 @@ footer {
 
 .footer-icons {
     position: relative;
-    width: 1.4rem;
-    height: 1.4rem;
-    /* padding: 0 4px; */
+    width: 1.2rem;
+    height: 1.2rem;
     margin: 0 12px 0 0;
 }
 
@@ -357,7 +375,7 @@ footer {
 
 .footer-small {
     font-family: 'Roboto Mono', monospace;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     color: #FFFFFF;
 }
 
