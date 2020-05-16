@@ -148,6 +148,17 @@ a.anchor {
     }
 }
 
+@media (max-width: 992px) {
+    .intro-img-container {
+        padding-top: 2rem !important;
+    }
+
+    .intro-img {
+        width: 18rem !important;
+        height: 18rem !important;
+    }
+}
+
 @media (max-width: 768px) {
     .navbar-brand {
         padding-top: 0.75rem;
@@ -159,6 +170,10 @@ a.anchor {
 
     .intro-inner {
         padding-top: 2rem !important;
+    }
+
+    .intro-img-container {
+        padding-top: 0.5rem !important;
     }
 
     .card-img-top {
@@ -186,17 +201,13 @@ a.anchor {
     padding: 4rem 0 8rem 0;
 }
 
-.intro-img-container {
-    padding-top: 2rem;
-}
-
 .intro-img-pos {
     width: 100%;
 }
 
 .intro-img {
-    width: 19rem;
-    height: 19rem;
+    width: 22rem;
+    height: 22rem;
     object-fit: cover;
     object-position: 0 80%;
     border-radius: 50%;
@@ -213,6 +224,7 @@ a.anchor {
 }
 
 .intro-sub-sub-text {
+    /* font-family: 'Roboto Mono', monospace; */
     font-size: 1rem;
 }
 
@@ -300,7 +312,7 @@ p {
     transition: .2s box-shadow, .15s transform;
     border-radius: .5rem;
     overflow: hidden;
-    min-height: 25rem;
+    min-height: 24rem;
 }
 
 .portfolio-item:hover {
@@ -522,7 +534,7 @@ footer {
 .project-link-icon {
     width: 1.6rem;
     height: 1.6rem;
-    opacity: 0.6;
+    opacity: 0.5;;
     transition-property: opacity;
     transition-timing-function: linear;
     transition-duration: 0.18s;
