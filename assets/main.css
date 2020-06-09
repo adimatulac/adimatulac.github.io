@@ -161,6 +161,14 @@ a.anchor {
         width: 18rem !important;
         height: 18rem !important;
     }
+
+    .section-sub-text {
+        padding: 0 1rem 0 1rem !important;
+    }
+
+    .section-sub-subtext {
+        padding: 0 1rem 0 1rem !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -262,6 +270,13 @@ p {
 
 .section-sub-text {
     font-size: 1rem;
+    padding: 0 10rem 0 10rem;
+}
+
+.section-sub-subtext {
+    font-size: 0.865rem;
+    font-style: italic;
+    padding: 0 10rem 0 10rem;
 }
 
 .p-link {
