@@ -65,7 +65,7 @@ button:focus {
 }
 
 .custom-nav {
-    background-color: #E6F3FF;
+    background-color: rgb(255, 255, 255);
 }
 
 .navigation {
@@ -74,6 +74,10 @@ button:focus {
 
 .nav-container {
     width: 100%;
+}
+
+.navbar-header {
+    margin-left: 10px;
 }
 
 .navbar-head {
@@ -103,7 +107,7 @@ button:focus {
 
 .nav-link {
     font-family: 'AvenirNext-Regular', sans-serif;
-    color: #65737E;
+    color: #333d43;
     opacity: 1;
     transition-property: opacity;
     transition-timing-function: linear;
@@ -184,11 +188,12 @@ a.anchor {
 .navbar-brand {
     font-family: 'AvenirNext-Bold', sans-serif;
     font-size: 1.2rem;
-    color: #0E0E52;
+    color: #006DCC;
+    transition-duration: 0.2s;
 }
 
 .navbar-brand:hover {
-    color: #0E0E52;
+    color: #0057A3;
 }
 
 .bio-wrapper {
@@ -335,7 +340,7 @@ footer {
 
 .footer-main {
     width: 100%;
-    background-color: #0E0E52;
+    background-color: rgb(255, 255, 255);
     bottom: 0;
     position: absolute;
 }
@@ -383,7 +388,7 @@ footer {
 .footer-small {
     font-family: 'Roboto Mono', monospace;
     font-size: 0.75rem;
-    color: #FFFFFF;
+    color: #333d43;
 }
 
 .theme-btn {
