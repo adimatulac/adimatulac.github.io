@@ -380,8 +380,8 @@ footer {
 
 .inline-icons {
     position: relative;
-    width: 0.85rem;
-    height: 0.85rem;
+    width: 1rem;
+    height: 1rem;
 }
 
 .contact-icons:hover a {
