@@ -46,7 +46,7 @@ body {
 ol {
     margin-top: 2rem;
     margin-bottom: 4rem;
-    padding-inline-start: 1rem;
+    padding-inline-start: 1.2rem;
     font-size: 1.2rem;
     color: #535E67;
 }
@@ -216,6 +216,10 @@ a.anchor {
 
     .card-img-top {
         height: 60vw !important;
+    }
+
+    .custom-nav {
+        padding-top: 0;
     }
 }
 
