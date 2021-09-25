@@ -110,10 +110,11 @@ button:focus {
 }
 
 .navbar-toggler {
-    border-color: transparent;
+    border: 0;
     outline: transparent;
     /* to change spacing between right edge and hamburger */
-    padding: 0.75rem 0 0.75rem 0.75rem;
+    margin-top: 2rem;
+    padding: 0;
     font-size: 1.5rem;
 }
 
@@ -461,7 +462,6 @@ footer {
     width: 20px;
     height: 14px;
     position: relative;
-    margin: 5px auto;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
