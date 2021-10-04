@@ -43,7 +43,7 @@ body {
     color: #333d43;
 }
 
-ol {
+ol, ul {
     margin-top: 2rem;
     margin-bottom: 4rem;
     padding-inline-start: 1.2rem;
@@ -53,6 +53,19 @@ ol {
 
 li {
     padding-left: 1rem;
+    list-style-type: none;
+}
+
+.intro-list {
+    padding-left: 0;
+}
+
+.intro-list-item {
+    padding: 0;
+}
+
+.list-icon {
+    margin-right: 0.25rem;
 }
 
 main {
