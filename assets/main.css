@@ -205,10 +205,6 @@ a.anchor {
     .section-sub-text {
         padding: 0 1rem 0 1rem !important;
     }
-
-    .section-sub-subtext {
-        padding: 0 1rem 0 1rem !important;
-    }
 }
 
 @media (max-width: 768px) {
@@ -316,7 +312,6 @@ p {
 .section-sub-subtext {
     font-size: 0.865rem;
     font-style: italic;
-    padding: 0 10rem 0 10rem;
 }
 
 .p-link {
