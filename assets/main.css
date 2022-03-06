@@ -56,6 +56,12 @@ li {
     list-style-type: none;
 }
 
+code {
+    background-color: #F0F0F0;
+    padding: 0.1rem 0.25rem;
+    border-radius: 2px;
+}
+
 .intro-list {
     padding-left: 0;
 }
