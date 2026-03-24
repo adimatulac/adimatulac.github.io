@@ -15,7 +15,8 @@
   --color-link-hover:  #e63329;
 
   /* Type families */
-  --type-serif:        'Playfair Display', Georgia, serif;
+  --type-display:      'Cherry Bomb One', Georgia, serif;
+  --type-serif:        'Instrument Serif', Georgia, serif;
   --type-sans:         'AvenirNext-Regular', system-ui, -apple-system, sans-serif;
   --type-sans-bd:      'AvenirNext-DemiBold', system-ui, -apple-system, sans-serif;
   --type-mono:         'Roboto Mono', 'Courier New', monospace;
@@ -42,7 +43,7 @@
   /* Layout */
   --site-max:   1200px;
   --gutter:     clamp(1.5rem, 5vw, 5rem);
-  --section-gap: clamp(5rem, 12vh, 10rem);
+  --section-gap: clamp(3rem, 7vh, 6rem);
 
   /* Motion */
   --ease:       cubic-bezier(0.25, 0.1, 0.25, 1);
