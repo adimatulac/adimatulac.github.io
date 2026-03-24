@@ -175,7 +175,7 @@
 
 .about-body .about-lead::first-letter {
   font-family: var(--type-serif);
-  font-size: clamp(3.5rem, 8vw, var(--text-5xl));
+  font-size: clamp(3.5rem, 6vw, var(--text-5xl));
   font-weight: 900;
   color: var(--color-red);
   float: left;
@@ -257,6 +257,22 @@
   font-size: var(--text-xs);
   letter-spacing: 0.06em;
   color: var(--color-ink-muted);
+}
+
+.footer-links a {
+  font-family: var(--type-mono);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-ink-muted);
+  text-decoration: underline;
+  text-decoration-color: rgba(26, 58, 255, 0.35);
+  text-underline-offset: 3px;
+  transition: text-decoration-color var(--duration) var(--ease);
+}
+
+.footer-links a:hover {
+  text-decoration-color: var(--color-blue);
 }
 
 /* ================================================
