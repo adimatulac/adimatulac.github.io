@@ -1,0 +1,50 @@
+:root {
+  /* Surfaces */
+  --color-paper:       #f8f6f1;
+  --color-ink:         #1a1a1a;
+  --color-ink-muted:   #555047;
+  --color-rule:        #d9d4ca;
+
+  /* Accents — use sparingly, as punctuation */
+  --color-red:         #e63329;
+  --color-green:       #c8e535;
+  --color-blue:        #1a3aff;
+
+  /* Interactive */
+  --color-link:        #1a3aff;
+  --color-link-hover:  #e63329;
+
+  /* Type families */
+  --type-serif:        'Playfair Display', Georgia, serif;
+  --type-sans:         'AvenirNext-Regular', system-ui, -apple-system, sans-serif;
+  --type-sans-bd:      'AvenirNext-DemiBold', system-ui, -apple-system, sans-serif;
+  --type-mono:         'Roboto Mono', 'Courier New', monospace;
+
+  /* Type scale */
+  --text-xs:    0.75rem;
+  --text-sm:    0.875rem;
+  --text-base:  1rem;
+  --text-md:    1.2rem;
+  --text-lg:    1.5rem;
+  --text-xl:    2rem;
+  --text-2xl:   2.667rem;
+  --text-3xl:   4rem;
+  --text-4xl:   6rem;
+  --text-5xl:   9rem;
+
+  /* Spacing */
+  --space-xs:   0.5rem;
+  --space-sm:   1rem;
+  --space-md:   2rem;
+  --space-lg:   4rem;
+  --space-xl:   8rem;
+
+  /* Layout */
+  --site-max:   1200px;
+  --gutter:     clamp(1.5rem, 5vw, 5rem);
+  --section-gap: clamp(5rem, 12vh, 10rem);
+
+  /* Motion */
+  --ease:       cubic-bezier(0.25, 0.1, 0.25, 1);
+  --duration:   0.2s;
+}
