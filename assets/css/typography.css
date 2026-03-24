@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Instrument+Serif:ital@0;1&family=Roboto+Mono:wght@400;500&display=swap');
+
+@font-face {
+  font-family: 'AvenirNext-Regular';
+  src: url('../fonts/AvenirNext-Regular.woff') format('woff'),
+       url('../fonts/AvenirNext-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvenirNext-DemiBold';
+  src: url('../fonts/AvenirNext-DemiBold.woff') format('woff'),
+       url('../fonts/AvenirNext-DemiBold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvenirNext-UltraLight';
+  src: url('../fonts/AvenirNext-UltraLight.woff') format('woff'),
+       url('../fonts/AvenirNext-UltraLight.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvenirNext-Bold';
+  src: url('../fonts/AvenirNext-Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+body {
+  font-family: var(--type-sans);
+  font-size: var(--text-base);
+  color: var(--color-ink);
+  background-color: var(--color-paper);
+}
+
+h1, h2, h3 {
+  font-family: var(--type-serif);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--color-ink);
+}
+
+p {
+  max-width: 65ch;
+  line-height: 1.7;
+}
+
+a {
+  color: var(--color-link);
+  transition: color var(--duration) var(--ease);
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
