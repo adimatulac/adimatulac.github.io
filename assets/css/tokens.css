@@ -20,6 +20,7 @@
   --type-sans:         'AvenirNext-Regular', system-ui, -apple-system, sans-serif;
   --type-sans-bd:      'AvenirNext-DemiBold', system-ui, -apple-system, sans-serif;
   --type-mono:         'Roboto Mono', 'Courier New', monospace;
+  --type-dina:         'DynaPuff', system-ui, -apple-system, sans-serif;
 
   /* Type scale */
   --text-xs:    0.75rem;

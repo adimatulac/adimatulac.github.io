@@ -76,6 +76,12 @@
   /* margin-bottom: 1.25rem; */
 }
 
+.change-type {
+  font-family: var(--type-dina);
+  font-weight: 700;
+  font-size: clamp(2.7rem, 7vw, 4.5rem);
+}
+
 .hero-descriptor {
   font-family: var(--type-mono);
   font-size: var(--text-xs);
@@ -142,7 +148,6 @@
 
 .tagline-text {
   font-family: var(--type-serif);
-  font-style: italic;
   font-size: var(--text-lg);
   color: var(--color-ink);
   line-height: 1.2;
@@ -177,7 +182,7 @@
   font-family: var(--type-serif);
   font-size: clamp(3.5rem, 6vw, var(--text-5xl));
   font-weight: 900;
-  color: var(--color-red);
+  color: var(--color-ink);
   float: left;
   line-height: 0.8;
   margin-right: 0.1em;
