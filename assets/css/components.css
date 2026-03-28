@@ -65,7 +65,7 @@
 .hero-left h1 {
   font-family: var(--type-display);
   font-size: clamp(3.5rem, 9vw, var(--text-4xl));
-  font-weight: 400;
+  font-weight: 900;
   line-height: 1.0;
   letter-spacing: 0;
   color: var(--color-ink);
